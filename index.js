@@ -50,3 +50,7 @@ const isNegative = (n)=>{
 const triangleArea = (n1,n2)=>{
     return n1*n2*(1/2) 
 }
+
+const bt2040 = (n)=>{
+    return (n>20 && n<40)
+}
