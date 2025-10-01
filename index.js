@@ -34,3 +34,8 @@ const untilNum = (n)=>{
 
 }
 untilNum(5)
+
+const multiply = (n1,n2)=>{
+    return n1*n2
+}
+
