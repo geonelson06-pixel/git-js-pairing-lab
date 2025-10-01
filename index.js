@@ -54,3 +54,8 @@ const triangleArea = (n1,n2)=>{
 const bt2040 = (n)=>{
     return (n>20 && n<40)
 }
+
+const largest = (n1,n2,n3)=>{
+    return n1>n2?n1>n3?n1:n3:n2>n3?n2:n3
+}
+console.log(largest(90,40,80))
