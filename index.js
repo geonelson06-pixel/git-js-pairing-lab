@@ -42,3 +42,8 @@ const multiply = (n1,n2)=>{
 const add = (n1,n2)=>{
     return n1 == n2? n1*n2: n1+n2
 }
+
+const isNegative = (n)=>{
+    return n<0 
+}
+
