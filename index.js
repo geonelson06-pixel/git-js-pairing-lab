@@ -47,3 +47,6 @@ const isNegative = (n)=>{
     return n<0 
 }
 
+const triangleArea = (n1,n2)=>{
+    return n1*n2*(1/2) 
+}
