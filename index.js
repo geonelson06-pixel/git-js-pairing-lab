@@ -6,6 +6,15 @@ const fiveToOneHundred = ()=>{
 }
 fiveToOneHundred()
 
+const multiplesOfThree = ()=>{
+    for(let x =0;x<=100;x++){
+        x%3==0?console.log(x):''
+    }
+
+}
+
+multiplesOfThree()
+
 const multiplesOfThreeOrFive = ()=>{
     for(let x =0;x<=100;x++){
         if(x%3 == 0){
