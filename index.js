@@ -98,3 +98,55 @@ const largest = (num1, num2, num3) => {
     }
 }
 console.log(largest(30, 22, 17));
+
+//Problem 11
+const printTime = () => {
+    const now = new Date();
+
+    //Get Hours, Minutes, Seconds
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+
+    //Pad with leading zeros if less than 10
+    hours = String(hours).padStart(2, '0')
+    minutes = String(minutes).padStart(2, '0')
+    seconds = String(seconds).padStart(2, '0')
+
+    return `${hours}:${minutes}:${seconds}`;
+}
+
+console.log(printTime());
+
+//Problem 12
+const leapYear = (n) => {
+    if (n % 4 === 0) {
+        return true
+    } else if (n % 400 === 0) {
+        return false
+    } else {
+        return false;
+
+    }
+};
+console.log(leapYear(2025))
+console.log(leapYear(2028))
+
+//Problem 13
+//const getExtension = () => {
+// let myString = '';
+// for (let i = 0; i <= myString; i++) {
+
+//}
+//}
+
+const getExtention = (string) => {
+    let myString = '';
+    let character = '.';
+    let place = '';
+    for (i = 0; i <= string.indexOf(character); i++); {
+        place = i;
+    };
+    return myString = string.slice(place);
+};
+console.log(getExtention('cheetah.lol'))
