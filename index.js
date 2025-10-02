@@ -61,3 +61,8 @@ const isNegative = (num) => {
     }
 }
 console.log(isNegative(4));
+
+const triangleArea = (b, h) => {
+    return (b * h) / 2;
+}
+console.log(triangleArea(5, 7));
