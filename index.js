@@ -39,3 +39,14 @@ const multiply = (num1, num2) => {
     return num1 * num2;
 }
 console.log(multiply(5, 4));
+
+const add = (num1, num2) => {
+    if (num1 === num2) {
+        return (num1 + num2) * 3;
+    }
+    else {
+        return num1 + num2;
+    }
+
+}
+console.log(add(3, 3));
