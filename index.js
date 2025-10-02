@@ -98,3 +98,49 @@ const largest = (num1, num2, num3) => {
     }
 }
 console.log(largest(30, 22, 17));
+
+
+
+
+
+
+
+
+
+
+//Problem 14
+const absoluteNineteen = (n) => {
+    return Math.abs(n - 19);
+}
+
+console.log(absoluteNineteen(5));
+
+
+//Problem 15
+const switchLetters = (word) => {
+    let newWord = '';
+    const abcs = 'abcdefghijklmnopqrstuvwxyz';
+    const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    for (let i = 0; i < word.length; i++) {
+        for (let j = 0; j < abcs.length; j++) {
+            if (word[i] === abcs[j]) {
+                newWord += abcs[j + 1];
+            }
+            else if (word[i] === upper[j]) {
+                newWord += upper[j + 1];
+            }
+        }
+
+    }
+    console.log(newWord);
+}
+switchLetters("Turkey");
+
+//Problem 16
+const changeStr = (word) => {
+    let aChar = word.split();
+    for (let i = 0; i < aChar.length; i++) {
+        let c = aChar[i].charCodeAt() - 'a'.charCodeAt();
+    }
+
+}
