@@ -59,10 +59,10 @@ const largest = (n1, n2, n3) => {
     return n1 > n2 ? n1 > n3 ? n1 : n3 : n2 > n3 ? n2 : n3
 }
 
-console.log(largest(90,40,80))
+console.log(largest(90, 40, 80))
 
-const isLeapYear = (y) =>{
-return y%100==0?y%400==0?true:false:y%4==0?true:false
+const isLeapYear = (y) => {
+    return y % 100 == 0 ? y % 400 == 0 ? true : false : y % 4 == 0 ? true : false
 }
 
 
