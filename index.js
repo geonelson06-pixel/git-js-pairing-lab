@@ -60,6 +60,10 @@ const largest = (n1,n2,n3)=>{
 }
 console.log(largest(90,40,80))
 
+const getTheTime = ()=>{
+const info = new Date()
+return `${info.getHours()}:${info.getMinutes()}:${info.getSeconds()}`
+    
 const getExtension = (arr) =>{
 let ext=''
 let newArr=arr.split('');
