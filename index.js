@@ -7,7 +7,7 @@ const fiveToOneHundred = () => {
 fiveToOneHundred()
 
 const multiplesOfThree = () => {
-    for (let x = 0; x <= 100; x++) {
+    for (let x = 1; x <= 100; x++) {
         x % 3 == 0 ? console.log(x) : ''
     }
 
@@ -16,7 +16,7 @@ const multiplesOfThree = () => {
 multiplesOfThree()
 
 const multiplesOfThreeOrFive = () => {
-    for (let x = 0; x <= 100; x++) {
+    for (let x = 1; x <= 100; x++) {
         if (x % 3 == 0) {
             console.log(x)
         } else if (x % 5 == 0) {
@@ -28,7 +28,7 @@ const multiplesOfThreeOrFive = () => {
 multiplesOfThreeOrFive()
 
 const untilNum = (n) => {
-    for (let x = 0; x <= n; x++) {
+    for (let x = 1; x <= n; x++) {
         console.log(x)
     }
 
@@ -40,7 +40,7 @@ const multiply = (n1, n2) => {
 }
 
 const add = (n1, n2) => {
-    return n1 == n2 ? n1 * n2 : n1 + n2
+    return n1 == n2 ? (n1 + n2) * 3 : n1 + n2
 }
 
 const isNegative = (n) => {
@@ -51,7 +51,7 @@ const triangleArea = (n1, n2) => {
     return n1 * n2 * (1 / 2)
 }
 
-const bt2040 = (n) => {
+const betweenTwentyAndFourty = (n) => {
     return (n > 20 && n < 40)
 }
 
